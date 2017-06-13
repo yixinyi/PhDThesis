@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+The style file: utphys.bst
+Database file #1: References.bib
+Repeated entry---line 504 of file References.bib
+ : @article{Bergamin:2015vxa
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 657 of file References.bib
+ : @article{Buchbinder:2014nia
+ :                            ,
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in Zarembo:2016bbk
+You've used 62 entries,
+            2328 wiz_defined-function locations,
+            1119 strings with 17231 characters,
+and the built_in function-call counts, 20272 in all, are:
+= -- 2146
+> -- 510
+< -- 0
++ -- 197
+- -- 135
+* -- 2043
+:= -- 2318
+add.period$ -- 132
+call.type$ -- 62
+change.case$ -- 62
+chr.to.int$ -- 0
+cite$ -- 63
+duplicate$ -- 1104
+empty$ -- 2039
+format.name$ -- 135
+if$ -- 5336
+int.to.chr$ -- 0
+int.to.str$ -- 62
+missing$ -- 232
+newline$ -- 315
+num.names$ -- 62
+pop$ -- 302
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 744
+stack$ -- 0
+substring$ -- 972
+swap$ -- 528
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 144
+width$ -- 64
+write$ -- 563
+(There were 2 error messages)

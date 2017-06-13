@@ -1,0 +1,199 @@
+%
+% Template for Doctoral Theses at Uppsala 
+% University. The template is based on    
+% the layout and typography used for      
+% dissertations in the Acta Universitatis 
+% Upsaliensis series                      
+% Ver 5.2 - 2012-08-08                  
+% Latest version available at:            
+%   http://ub.uu.se/thesistemplate            
+%                                         
+% Support: Wolmar Nyberg Akerstrom        
+% Thesis Production           
+% Uppsala University Library              
+% avhandling@ub.uu.se                          
+%                                         
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass{UUThesisTemplate}
+
+% Package to determine wether XeTeX is used
+\usepackage{ifxetex}
+
+\ifxetex
+	% XeTeX specific packages and settings
+	% Language, diacritics and hyphenation
+	\usepackage[babelshorthands]{polyglossia}
+	\setmainlanguage{english}
+	\setotherlanguages{swedish}
+
+	% Font settings
+	\setmainfont{Times New Roman}
+	\setromanfont{Times New Roman}
+	\setsansfont{Arial}
+	\setmonofont{Courier New}
+\else
+	% Plain LaTeX specific packages and settings
+	% Language, diacritics and hyphenation
+    % Use English and Swedish languages. 
+	\usepackage[swedish,english]{babel} 
+
+	% Font settings
+	\usepackage{type1cm}
+	\usepackage[latin1]{inputenc}
+	\usepackage[T1]{fontenc}
+	\usepackage{mathptmx}
+	
+	% Enable scaling of images on import
+	\usepackage{graphicx}
+	
+	% Mathematical packages
+	\usepackage{mathtools}
+	\usepackage{amssymb}
+	\usepackage{amsfonts}
+% 	\usepackage[intlimits]{amsmath}
+	\usepackage{bbm}
+	\usepackage{braket}
+	
+	\usepackage{hyperref}
+% 	\usepackage{slashed}
+% 	\usepackage{psfrag}
+% 	\usepackage{wasysym}
+	\usepackage{esint}
+	
+% 	\usepackage[toc,page]{appendix}
+\fi
+
+
+% Tables
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+% Document links and bookmarks
+\usepackage{hyperref} 
+
+% Numbering of headings down to the subsection level
+\numberingdepth{subsection}
+
+% Including headings down to the subsection level in contents
+\contentsdepth{subsection}
+
+
+% Uncomment to use a custom abstract dummy text
+\abstractdummy{
+	\begin{abstract}
+% 		Please use no more than 300 words and avoid mathematics or complex script.
+	The gauge/string duality, a.k.a. the holographic principle is a profound assertion that emerged from string theory. 
+	It relates strongly-coupled gauge theories to weakly coupled string theories living in a higher-dimensional curved geometry. 
+	Nevertheless, it is a conjecture, and only a few instances of its more concrete form, the AdS/CFT correspondence, are well-understood. 
+	The most well-studied example is the duality between N=4 SYM, which is a CFT, and type IIB string theory in AdS5xS5 background. 
+	Generalization to less symmetric cases is a must, and the next logical step is to add a mass scale to N=4 SYM, 
+	therefore breaking its conformal symmetry and leading to N=2* SYM, the theory we study in this thesis. 
+	It is supersymmetric enough to employ the powerful localization method that reduces its partition function to a matrix model. 
+	We will see that the mass scale causes non-trivial phase structures in its vacuum configuration, 
+	visible in the holographic regime. We will probe them using Wilson loops in different representations of the gauge group. 
+	On the other hand, the dual supergravity background was derived by Pilch-Warner, 
+	making N=2* theory an explicitly testable non-conformal holographic case, which is a rare example. 
+	We will prove that the duality works for the dual observables (string action, D-branes) we managed to compute, 
+	even at a quantum-level. 	
+	\end{abstract}
+}
+
+
+\begin{document}
+\frontmatter
+    % Creates the front matter (ti	tle page(s), abstract, list of papers)
+    % for either a Comprehensive Summary or a Monograph.
+    % Authors of Comprehensive Summaries use this front matter 
+    \frontmatterCS 
+    % Monograph authors use this front matter 
+    %\frontmatterMonograph 
+ 
+   % Optional dedication
+%    \dedication{
+% 	      He who has a why to live can bear almost any how. \\
+%                --- \emph{Friedrich Nietzsche}
+%                }
+ 
+    % Environment used to create a list of papers
+    \begin{listofpapers}
+	\item
+X.~Chen-Lin, J.~Gordon, and K.~Zarembo, ``{$ \mathcal{N}={2}^*$
+  super-Yang-Mills theory at strong coupling},''
+  \href{http://dx.doi.org/10.1007/JHEP11(2014)057}{{\em JHEP} {\bfseries 1411}
+  (2014) 057},
+\href{http://arxiv.org/abs/1408.6040}{{\ttfamily arXiv:1408.6040 [hep-th]}}.
+	\item
+X.~Chen-Lin and K.~Zarembo, ``{Higher Rank Wilson Loops in N = 2*
+  Super-Yang-Mills Theory},''
+  \href{http://dx.doi.org/10.1007/JHEP03(2015)147}{{\em JHEP} {\bfseries 1503}
+  (2015) 147},
+\href{http://arxiv.org/abs/1502.01942}{{\ttfamily arXiv:1502.01942 [hep-th]}}.	
+	\item
+X.~Chen-Lin, A.~Dekel, and K.~Zarembo, ``{Holographic Wilson loops in symmetric
+  representations in $ \mathcal{N} = {2}^{\ast } $ super-Yang-Mills theory},''
+  \href{http://dx.doi.org/10.1007/JHEP02(2016)109}{{\em JHEP} {\bfseries 02}
+  (2016) 109},
+\href{http://arxiv.org/abs/1512.06420}{{\ttfamily arXiv:1512.06420 [hep-th]}}.	
+	\item
+X.~Chen-Lin, ``{Symmetric Wilson Loops beyond leading order},''
+  \href{http://dx.doi.org/10.21468/SciPostPhys.1.2.013}{{\em SciPost Phys.}
+  {\bfseries 1} no.~2, (2016) 013},
+\href{http://arxiv.org/abs/1610.02914}{{\ttfamily arXiv:1610.02914 [hep-th]}}.
+    	\item 
+X.~Chen-Lin, D.~Medina-Rincon, 	K.~Zarembo, ``{Quantum String Test of
+  Nonconformal Holography},''
+  \href{http://dx.doi.org/10.1007/JHEP04(2017)095}{{\em JHEP} {\bfseries 04}
+  (2017) 095},
+\href{http://arxiv.org/abs/1702.07954}{{\ttfamily arXiv:1702.07954 [hep-th]}}.
+    	\label{apaperlabel}
+    \end{listofpapers}
+    
+    
+    \begingroup
+        % To adjust the indentation in your table of contents, uncomment and enter the widest numbers for each level
+        %  E.g.  \settocnumwidth{widest chapter number}{widest section number}{widest subsection number}...{...}
+       %  \settocnumwidth{5}{4}{5}{3}{3}{3}
+        \tableofcontents
+    \endgroup
+    
+    % Optional tables
+    %\listoftables
+    %\listoffigures
+
+\mainmatter
+    
+    % Include your chapters here.
+    
+    \input{Chapters/Introduction.tex}
+   
+   \part{Supersymmetric gauge theories }
+     \input{Chapters/Localization.tex}
+     \input{Chapters/SYM.tex}
+     \input{Chapters/WilsonLoops.tex}
+   \part{Gauge/string duality}
+     \input{Chapters/supergravity.tex}
+     \input{Chapters/AdSCFT.tex}
+%      \input{Chapters/Dbranes.tex}
+     \input{Chapters/HoloWL.tex}
+     
+   \input{Chapters/Conclusion}  
+   \input{Chapters/SummarySwedish}  
+   \input{Chapters/Acknowledgement}  
+      
+	
+\backmatter
+    % References
+    % No restriction is set to the reference styles
+    % Save your references in References.bib
+%     \nocite{*} % Remove this for your own citations
+    \bibliographystyle{utphys} %halpha has no hyperlink!
+    \bibliography{References}
+
+
+\end{document}\grid
+\grid
+\grid
+\grid
+\grid

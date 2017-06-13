@@ -1,0 +1,218 @@
+\chapter{Localization}
+Localization of an integral happens when the integral is exactly equal to its saddle-point approximation.
+% The localization loci are then the saddle-points.
+A trivial example is therefore the Gaussian integration formula, which the saddle-point method is based on:
+\begin{equation}\label{GaussianIntegral}
+ \int_{\mathbb{R}^n} d^n x \, e^{-\frac{1}{2} x^T A x} = \sqrt{\dfrac{(2\pi)^n}{\text{det}A}},
+\end{equation}
+where $A$ is a positive-definite $n\times n$ matrix.
+
+
+In the case of path integrals in quantum field theories, which are of infinite dimension,
+localization, if applicable, reduces them to finite dimensional integrals.
+% This is achieved using functional generalizations of the Gaussian formula \eqref{GaussianIntegral},
+% and the resulting integral is over the moduli space of the theory vacua.
+This is an exact approach, in contrast to perturbative methods such as Feynman diagrams,
+valid only in the weakly-coupled regime.
+Unfortunately, very few path integrals are solvable, 
+but there are very specific classes of theories where localization does apply.
+These are supersymmetric theories and topological quantum field theories,
+from which we distinguish two types of localization:
+supersymmetric localization and equivariant localization.
+% As a matter of language, and
+% this effect is often said to be \emph{semiclassically-exact}, or \emph{1-loop exact}.
+
+Many results of this thesis are based on the supersymmetric localization.
+We will review its basic idea and illustrate it explicitly in an example with an ordinary integral. 
+We refer the reader to \cite{Szabo:1996md} and \cite{Pestun:2016zxk} for reviews of the topic.
+
+
+\section{Supersymmetric localization}
+
+In the path integral formulation of quantum theories, 
+physical observables are expectation values of operators.
+Let us consider the path integral (in the Euclidean signature and set $\hbar = 1$):
+\begin{equation}
+ \braket{O} = \int D\phi O \, e^{-S[\phi]},
+\end{equation}
+where $O$ is an operator, built out of the fields of the theory, represented by $\phi$.
+
+Assume we can deform the action $S$ in such a way that it does not affect the physical quantity, 
+namely
+\begin{equation}
+ \braket{O}_t = \int D\phi e^{-S[\phi]-t Q V[\phi]}, 
+\end{equation}
+where 
+% $QV\geq 0$, and 
+$Q$ is a fermionic symmetry of the theory, and require
+\begin{equation}
+ \dfrac{d \braket{O}_t}{d t} = 0.
+%  \overset{!}{=} 0.
+\end{equation}
+Integrating by parts and assuming vanishing boundary terms, 
+we obtain the following necessary conditions:
+\begin{equation}\label{loc:susyCondition}
+ Q^2 = 0, \quad Q S = 0, \quad Q O = 0,
+\end{equation}
+and that the measure $D\phi$ is also invariant (the symmetry must not be anomalous).
+
+If this deformation were possible, then the deformation parameter $t$ could be of any value. 
+The most useful case is to take it to be infinitely large,
+in order to use the saddle-point approximation.
+Since by construction the integral is independent of $t$, the saddle-point approximation must be exact,
+hence the path integral localizes to a set of loci.
+These are determined by\footnote{ 
+If the bosonic part is positive-definite.
+The fermionic contribution of the localization action is subleading.}
+\begin{equation}\label{loc:saddlePoint}
+ (QV)_\text{Bosonic} = 0
+\end{equation}
+whose solutions---let us denote them by $\phi_*$---belong to the moduli space of vacua of the theory.
+This means that some fields acquire a non-zero vacuum expectation value.
+Accounting the fluctuations around the vacuum configuration,
+the localized integral can be formally written as:
+\begin{equation}
+ \braket{O}=\int_\text{Moduli} D\phi_* O(\phi_*) e^{-S(\phi_*)} Z_\text{1-loop},
+\end{equation}
+where the integral over $\phi_*$ is analogous to the sum over all the saddle-points, 
+and $Z_\text{1-loop}$  is the functional generalization of the Gaussian integral \eqref{GaussianIntegral} for the fluctuations around the saddle-points. 
+It is thus a functional determinant, which is divergent in general.
+In order to obtain a finite result, the theory is defined in a compact manifold, like a sphere, 
+such that the spectrum of the operator is discrete, and supersymmetry guarantees the cancellation of divergences between bosons and fermions.
+Despite conceptual simplicity, the main challenge of this technique is to find the localization action $QV$, since no general recipe exists. 
+
+
+
+\section{A toy example}
+
+Consider an ordinary integral
+\begin{equation}
+ I = \int_m^M dx \,p g'(x)\,e^{p g(x)}, 
+\end{equation}
+with $p$ being a constant.
+It can be solved exactly as a total derivative:
+\begin{equation}
+ I = \int_m^M  dx \, \dfrac{d}{d x}\,e^{p g(x)} 
+   = e^{p g(M)}-e^{p g(m)}.
+\end{equation}
+
+
+If we were to solve it using the saddle-point approximation for $p \rightarrow \infty$,
+then the saddle-points must be the endpoints $x_* = \{m, M\}$.
+Let us consider this case and expand around the saddle-points:
+\begin{equation}
+ g(x_*+\xi) = g(x_*)+\frac{1}{2} g''(x_*) \xi^2 +\mathcal{O}(\xi^3).
+\end{equation}
+Each saddle-point contributes to the integral as following:
+\begin{eqnarray}
+ I_m &=& e^{p g(m)} \int_0^\infty  d\xi \, p g''(m) \xi\, e^{p \frac{1}{2} g''(m) \xi^2 } 
+      =- e^{p g(m)} \\
+ I_M &=& e^{p g(M)} \int_{-\infty}^0 d\xi \, p g''(M) \xi\, e^{p\frac{1}{2} g''(M) \xi^2 } 
+      = e^{p g(M)}   
+\end{eqnarray}
+valid for $\Re(p g'') < 0$.
+The sum $I_m + I_M$ indeed gives the exact result.
+% In conclusion, the integral $I$ is a trivial example of localization.
+
+
+Now, let us see how we can use supersymmetric localization to solve it. 
+The integral $I$ can be rewritten in the supersymmetric form:
+\begin{equation}
+ I = \int_m^M \, dx \int da \int db \, e^{p(g(x)-a b g'(x))},
+\end{equation}
+where $a$ and $b$ are Grassmann numbers (our fermions), 
+which means they satisfy $a b = -b a$ and $a^2=b^2=0$, hence 
+\begin{equation} \label{GrassmannIntegral}
+ f(x) = \int da \int db \, e^{-a\, f(x) \,b }.
+\end{equation}
+
+
+The action $S=p(g(x)-a b g'(x))$ is invariant under the supersymmetry transformation:
+\begin{equation}
+ \delta_\epsilon x = \epsilon x, 
+ \quad
+ \delta_\epsilon a = 0,
+ \quad 
+ \delta_\epsilon b = \epsilon,
+\end{equation}
+where $\epsilon$ is a Grassmann number.
+The supersymmetric operator, defined by $\epsilon Q = \delta_\epsilon$,
+is explicitly
+\begin{equation}
+ Q = a \frac{\partial }{\partial x}+\frac{\partial }{\partial b}.
+\end{equation}
+We can check that, indeed, \eqref{loc:susyCondition} are fulfilled.
+
+
+Let us deform the integral with a $Q$-exact term
+\begin{equation}
+ I(t)=\int_m^M \, dx \int da \int db \, e^{p(g(x)-a b g'(x))+ t Q V},
+\end{equation}
+where 
+\begin{equation}
+ V(x, a, b) = f(x) b
+\end{equation}
+that leads to a non-trivial localization action
+\begin{equation}
+ QV = f(x)-a b f'(x).
+\end{equation}
+This is actually the most general supersymmetric action we can write for this case.
+Thus, $S$ is not just $Q$-closed (i.e. $QS=0$), but also $Q$-exact (i.e. $S=QV_s$).
+
+
+We require the deformed integral to be independent of the deformation parameter $t$:
+\begin{equation}
+ I'(t)=0.
+\end{equation}
+An explicit and straightforward computation shows
+\begin{eqnarray}
+ I'(t) &=& \int_m^M \, dx \int da \int db \, e^{S + t Q V} Q V \\
+       &=& \int_m^M \, dx \int da \int db \, Q (e^{S + t Q V} V)\\
+       &=& \left. e^{p g(x)+ t f(x)} f(x) \right|^M_m
+\end{eqnarray}
+where we used the supersymmetry condition and nilpotency. 
+In this case, we must additionally require vanishing boundary conditions
+\begin{equation}
+ f(m)=f(M)=0.
+\end{equation}
+
+Now we can take large $t$ to solve the integral using the saddle-point method.
+The boundary points here must be either global maxima or global minima of $f(x)$,
+for $t>0$ or $t<0$, in order for the saddle-point integral to be convergent.
+In other words, for $t$ negative (positive), 
+the bosonic part of the localization action is positive (negative) definite, 
+and it vanishes at the saddle-points:
+\begin{equation}
+ (QV)_\text{Bosonic}=0.
+\end{equation}
+
+The saddle-point approximation is exact, in the same fashion as for the large $p$ case we studied before.
+This is to be expected, 
+since the deformed integral is still a total derivative when we integrate out the fermions:
+\begin{equation}
+ I(t) = \int_m^M  dx \, \dfrac{d}{d x}\,e^{p g(x) + t f(x)} 
+      = e^{p g(M)+ t f(M)}-e^{p g(m)+ t f(m)}.
+%       = e^{p g(M)}-e^{p g(m)}.      
+\end{equation}
+
+When $g(x)=\cos x$ and the integration region is extended to a sphere 
+parametrized by the polar angle $ x\in [0,\pi]$ and the azimuthal angle $\varphi \in [0, 2\pi]$,
+this becomes a particular example of the Duistermaat-Heckman integration formula,
+which is the precursor of the localization of path integrals.
+
+% Witten used this example to illustrate the equivariant localization in the appendix of \cite{Witten:1992xu}.
+
+% \begin{equation}
+%   \int_0^{2\pi} d\phi \, \int_0^{\pi} \, d\theta \sin\theta \, e^{t \cos\theta}
+% = \dfrac{2\pi}{t}\left(e^{t} - e^{-t}\right).
+% \end{equation}
+% The localization loci are the north and south pole, namely $\theta_*=\{0, \pi\}$.
+
+
+% The theorem was later proved to be a special case of a more general localization property of equivariant cohomology
+% and Berline and Vergne derived a localization formula for general compact Riemannian manifolds.
+% The first infinite-dimensional generalization of the theorem,
+% in the setting of a supersymmetric path integral,
+% was worked out by Atiyah and Witten.
+
+

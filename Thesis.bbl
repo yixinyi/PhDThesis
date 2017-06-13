@@ -1,0 +1,477 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Szabo:1996md}
+R.~J. Szabo, ``{Equivariant localization of path integrals},''
+\href{http://arxiv.org/abs/hep-th/9608068}{{\ttfamily arXiv:hep-th/9608068
+  [hep-th]}}.
+%%CITATION = HEP-TH/9608068;%%.
+
+\bibitem{Pestun:2016zxk}
+V.~Pestun {\em et~al.}, ``{Localization techniques in quantum field
+  theories},''
+\href{http://arxiv.org/abs/1608.02952}{{\ttfamily arXiv:1608.02952 [hep-th]}}.
+%%CITATION = ARXIV:1608.02952;%%.
+
+\bibitem{Brink:1976bc}
+L.~Brink, J.~H. Schwarz, and J.~Scherk, ``{Supersymmetric Yang-Mills
+  Theories},''
+\href{http://dx.doi.org/10.1016/0550-3213(77)90328-5}{{\em Nucl. Phys.}
+  {\bfseries B121} (1977) 77--92}.
+%%CITATION = NUPHA,B121,77;%%.
+
+\bibitem{MANDELSTAM1983149}
+S.~Mandelstam, ``Light-cone superspace and the ultraviolet finiteness of the
+  n=4 model,''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/0550-3213(83)90179-7}{{\em
+  Nuclear Physics B} {\bfseries 213} no.~1, (1983) 149 -- 168}.
+  \url{http://www.sciencedirect.com/science/article/pii/0550321383901797}.
+
+\bibitem{BRINK1983323}
+L.~Brink, O.~Lindgren, and B.~E. Nilsson, ``The ultra-violet finiteness of the
+  n=4 yang-mills theory,''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/0370-2693(83)91210-8}{{\em
+  Physics Letters B} {\bfseries 123} no.~5, (1983) 323 -- 328}.
+  \url{http://www.sciencedirect.com/science/article/pii/0370269383912108}.
+
+\bibitem{Minahan:2010js}
+J.~A. Minahan, ``{Review of AdS/CFT Integrability, Chapter I.1: Spin Chains in
+  N=4 Super Yang-Mills},''
+  \href{http://dx.doi.org/10.1007/s11005-011-0522-9}{{\em Lett. Math. Phys.}
+  {\bfseries 99} (2012) 33--58},
+\href{http://arxiv.org/abs/1012.3983}{{\ttfamily arXiv:1012.3983 [hep-th]}}.
+%%CITATION = ARXIV:1012.3983;%%.
+
+\bibitem{Pestun:2007rz}
+V.~Pestun, ``{Localization of gauge theory on a four-sphere and supersymmetric
+  Wilson loops},'' \href{http://dx.doi.org/10.1007/s00220-012-1485-0}{{\em
+  Commun. Math. Phys.} {\bfseries 313} (2012) 71--129},
+\href{http://arxiv.org/abs/0712.2824}{{\ttfamily arXiv:0712.2824 [hep-th]}}.
+%%CITATION = ARXIV:0712.2824;%%.
+
+\bibitem{Festuccia:2011ws}
+G.~Festuccia and N.~Seiberg, ``{Rigid Supersymmetric Theories in Curved
+  Superspace},'' \href{http://dx.doi.org/10.1007/JHEP06(2011)114}{{\em JHEP}
+  {\bfseries 06} (2011) 114},
+\href{http://arxiv.org/abs/1105.0689}{{\ttfamily arXiv:1105.0689 [hep-th]}}.
+%%CITATION = ARXIV:1105.0689;%%.
+
+\bibitem{Russo:2013qaa}
+J.~G. Russo and K.~Zarembo, ``{Evidence for Large-N Phase Transitions in N=2*
+  Theory},'' \href{http://dx.doi.org/10.1007/JHEP04(2013)065}{{\em JHEP}
+  {\bfseries 04} (2013) 065},
+\href{http://arxiv.org/abs/1302.6968}{{\ttfamily arXiv:1302.6968 [hep-th]}}.
+%%CITATION = ARXIV:1302.6968;%%.
+
+\bibitem{Buchel:2000cn}
+A.~Buchel, A.~W. Peet, and J.~Polchinski, ``{Gauge dual and noncommutative
+  extension of an N=2 supergravity solution},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.63.044009}{{\em Phys. Rev.}
+  {\bfseries D63} (2001) 044009},
+\href{http://arxiv.org/abs/hep-th/0008076}{{\ttfamily arXiv:hep-th/0008076
+  [hep-th]}}.
+%%CITATION = HEP-TH/0008076;%%.
+
+\bibitem{Bobev:2013cja}
+N.~Bobev, H.~Elvang, D.~Z. Freedman, and S.~S. Pufu, ``{Holography for $N =
+  2^*$ on $S^4$},'' \href{http://dx.doi.org/10.1007/JHEP07(2014)001}{{\em JHEP}
+  {\bfseries 1407} (2014) 001},
+\href{http://arxiv.org/abs/1311.1508}{{\ttfamily arXiv:1311.1508 [hep-th]}}.
+%%CITATION = ARXIV:1311.1508;%%.
+
+\bibitem{Scherk:1979zr}
+J.~Scherk and J.~H. Schwarz, ``{How to Get Masses from Extra Dimensions},''
+\href{http://dx.doi.org/10.1016/0550-3213(79)90592-3}{{\em Nucl. Phys.}
+  {\bfseries B153} (1979) 61--88}.
+%%CITATION = NUPHA,B153,61;%%.
+
+\bibitem{Okuda:2010ke}
+T.~Okuda and V.~Pestun, ``{On the instantons and the hypermultiplet mass of
+  N=2* super Yang-Mills on $S^{4}$},''
+  \href{http://dx.doi.org/10.1007/JHEP03(2012)017}{{\em JHEP} {\bfseries 03}
+  (2012) 017},
+\href{http://arxiv.org/abs/1004.1222}{{\ttfamily arXiv:1004.1222 [hep-th]}}.
+%%CITATION = ARXIV:1004.1222;%%.
+
+\bibitem{Nekrasov:2002qd}
+N.~A. Nekrasov, ``{Seiberg-Witten prepotential from instanton counting},''
+  \href{http://dx.doi.org/10.4310/ATMP.2003.v7.n5.a4}{{\em Adv. Theor. Math.
+  Phys.} {\bfseries 7} no.~5, (2003) 831--864},
+\href{http://arxiv.org/abs/hep-th/0206161}{{\ttfamily arXiv:hep-th/0206161
+  [hep-th]}}.
+%%CITATION = HEP-TH/0206161;%%.
+
+\bibitem{Russo:2013kea}
+J.~G. Russo and K.~Zarembo, ``{Massive N=2 Gauge Theories at Large N},''
+  \href{http://dx.doi.org/10.1007/JHEP11(2013)130}{{\em JHEP} {\bfseries 11}
+  (2013) 130},
+\href{http://arxiv.org/abs/1309.1004}{{\ttfamily arXiv:1309.1004 [hep-th]}}.
+%%CITATION = ARXIV:1309.1004;%%.
+
+\bibitem{Dyson:1962es}
+F.~J. Dyson, ``{Statistical theory of the energy levels of complex systems.
+  I},''
+\href{http://dx.doi.org/10.1063/1.1703773}{{\em J. Math. Phys.} {\bfseries 3}
+  (1962) 140--156}.
+%%CITATION = JMAPA,3,140;%%.
+
+\bibitem{Buchel:2013id}
+A.~Buchel, J.~G. Russo, and K.~Zarembo, ``{Rigorous Test of Non-conformal
+  Holography: Wilson Loops in N=2* Theory},''
+  \href{http://dx.doi.org/10.1007/JHEP03(2013)062}{{\em JHEP} {\bfseries 1303}
+  (2013) 062},
+\href{http://arxiv.org/abs/1301.1597}{{\ttfamily arXiv:1301.1597 [hep-th]}}.
+%%CITATION = ARXIV:1301.1597;%%.
+
+\bibitem{Zarembo:2014ooa}
+K.~Zarembo, ``{Strong-Coupling Phases of Planar N=2* Super-Yang-Mills
+  Theory},'' \href{http://dx.doi.org/10.1007/s11232-014-0232-4}{{\em
+  Theor.Math.Phys.} {\bfseries 181} no.~3, (2014) 1522--1530},
+\href{http://arxiv.org/abs/1410.6114}{{\ttfamily arXiv:1410.6114 [hep-th]}}.
+%%CITATION = ARXIV:1410.6114;%%.
+
+\bibitem{Anderson:2014hxa}
+L.~Anderson and K.~Zarembo, ``{Quantum Phase Transitions in Mass-Deformed ABJM
+  Matrix Model},'' \href{http://dx.doi.org/10.1007/JHEP09(2014)021}{{\em JHEP}
+  {\bfseries 1409} (2014) 021},
+\href{http://arxiv.org/abs/1406.3366}{{\ttfamily arXiv:1406.3366 [hep-th]}}.
+%%CITATION = ARXIV:1406.3366;%%.
+
+\bibitem{Nedelin:2015mta}
+A.~Nedelin, ``{Phase transitions in 5D super Yang-Mills theory},''
+  \href{http://dx.doi.org/10.1007/JHEP07(2015)004}{{\em JHEP} {\bfseries 07}
+  (2015) 004},
+\href{http://arxiv.org/abs/1502.07275}{{\ttfamily arXiv:1502.07275 [hep-th]}}.
+%%CITATION = ARXIV:1502.07275;%%.
+
+\bibitem{Maldacena:1998im}
+J.~M. Maldacena, ``{Wilson loops in large N field theories},''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.80.4859}{{\em Phys. Rev. Lett.}
+  {\bfseries 80} (1998) 4859--4862},
+\href{http://arxiv.org/abs/hep-th/9803002}{{\ttfamily arXiv:hep-th/9803002
+  [hep-th]}}.
+%%CITATION = HEP-TH/9803002;%%.
+
+\bibitem{Drukker:2000rr}
+N.~Drukker and D.~J. Gross, ``{An Exact prediction of N=4 SUSYM theory for
+  string theory},'' \href{http://dx.doi.org/10.1063/1.1372177}{{\em J. Math.
+  Phys.} {\bfseries 42} (2001) 2896--2914},
+\href{http://arxiv.org/abs/hep-th/0010274}{{\ttfamily arXiv:hep-th/0010274
+  [hep-th]}}.
+%%CITATION = HEP-TH/0010274;%%.
+
+\bibitem{Erickson:2000af}
+J.~K. Erickson, G.~W. Semenoff, and K.~Zarembo, ``{Wilson loops in N=4
+  supersymmetric Yang-Mills theory},''
+  \href{http://dx.doi.org/10.1016/S0550-3213(00)00300-X}{{\em Nucl. Phys.}
+  {\bfseries B582} (2000) 155--175},
+\href{http://arxiv.org/abs/hep-th/0003055}{{\ttfamily arXiv:hep-th/0003055
+  [hep-th]}}.
+%%CITATION = HEP-TH/0003055;%%.
+
+\bibitem{Fiol:2013hna}
+B.~Fiol and G.~Torrents, ``{Exact results for Wilson loops in arbitrary
+  representations},'' \href{http://dx.doi.org/10.1007/JHEP01(2014)020}{{\em
+  JHEP} {\bfseries 1401} (2014) 020},
+\href{http://arxiv.org/abs/1311.2058}{{\ttfamily arXiv:1311.2058 [hep-th]}}.
+%%CITATION = ARXIV:1311.2058;%%.
+
+\bibitem{Hartnoll:2006is}
+S.~A. Hartnoll and S.~P. Kumar, ``{Higher rank Wilson loops from a matrix
+  model},'' \href{http://dx.doi.org/10.1088/1126-6708/2006/08/026}{{\em JHEP}
+  {\bfseries 08} (2006) 026},
+\href{http://arxiv.org/abs/hep-th/0605027}{{\ttfamily arXiv:hep-th/0605027
+  [hep-th]}}.
+%%CITATION = HEP-TH/0605027;%%.
+
+\bibitem{Faraggi:2014tna}
+A.~Faraggi, J.~T. Liu, L.~A. Pando~Zayas, and G.~Zhang, ``{One-loop structure
+  of higher rank Wilson loops in AdS/CFT},''
+  \href{http://dx.doi.org/10.1016/j.physletb.2014.11.060}{{\em Phys.Lett.}
+  {\bfseries B740} (2015) 218--221},
+\href{http://arxiv.org/abs/1409.3187}{{\ttfamily arXiv:1409.3187 [hep-th]}}.
+%%CITATION = ARXIV:1409.3187;%%.
+
+\bibitem{Kawamoto:2008gp}
+S.~Kawamoto, T.~Kuroki, and A.~Miwa, ``{Boundary condition for D-brane from
+  Wilson loop, and gravitational interpretation of eigenvalue in matrix model
+  in AdS/CFT correspondence},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.79.126010}{{\em Phys.Rev.}
+  {\bfseries D79} (2009) 126010},
+\href{http://arxiv.org/abs/0812.4229}{{\ttfamily arXiv:0812.4229 [hep-th]}}.
+%%CITATION = ARXIV:0812.4229;%%.
+
+\bibitem{Yamaguchi:2007ps}
+S.~Yamaguchi, ``{Semi-classical open string corrections and symmetric Wilson
+  loops},'' \href{http://dx.doi.org/10.1088/1126-6708/2007/06/073}{{\em JHEP}
+  {\bfseries 0706} (2007) 073},
+\href{http://arxiv.org/abs/hep-th/0701052}{{\ttfamily arXiv:hep-th/0701052
+  [hep-th]}}.
+%%CITATION = HEP-TH/0701052;%%.
+
+\bibitem{Horikoshi:2016hds}
+M.~Horikoshi and K.~Okuyama, ``{$\alpha'$-expansion of Anti-Symmetric Wilson
+  Loops in $\mathcal{N}=4$ SYM from Fermi Gas},''
+\href{http://arxiv.org/abs/1607.01498}{{\ttfamily arXiv:1607.01498 [hep-th]}}.
+%%CITATION = ARXIV:1607.01498;%%.
+
+\bibitem{Pilch:2000ue}
+K.~Pilch and N.~P. Warner, ``{N=2 supersymmetric RG flows and the IIB
+  dilaton},'' \href{http://dx.doi.org/10.1016/S0550-3213(00)00656-8}{{\em Nucl.
+  Phys.} {\bfseries B594} (2001) 209--228},
+\href{http://arxiv.org/abs/hep-th/0004063}{{\ttfamily arXiv:hep-th/0004063
+  [hep-th]}}.
+%%CITATION = HEP-TH/0004063;%%.
+
+\bibitem{DHoker:2002nbb}
+E.~D'Hoker and D.~Z. Freedman, ``{Supersymmetric gauge theories and the AdS /
+  CFT correspondence},'' in {\em {Strings, Branes and Extra Dimensions: TASI
+  2001: Proceedings}}, pp.~3--158.
+\newblock 2002.
+\newblock
+\href{http://arxiv.org/abs/hep-th/0201253}{{\ttfamily arXiv:hep-th/0201253
+  [hep-th]}}.
+\newblock
+%%CITATION = HEP-TH/0201253;%%.
+
+\bibitem{Cremmer:1978km}
+E.~Cremmer, B.~Julia, and J.~Scherk, ``{Supergravity Theory in
+  Eleven-Dimensions},''
+\href{http://dx.doi.org/10.1016/0370-2693(78)90894-8}{{\em Phys. Lett.}
+  {\bfseries B76} (1978) 409--412}.
+%%CITATION = PHLTA,B76,409;%%.
+
+\bibitem{Schwarz:1983qr}
+J.~H. Schwarz, ``{Covariant Field Equations of Chiral N=2 D=10 Supergravity},''
+\href{http://dx.doi.org/10.1016/0550-3213(83)90192-X}{{\em Nucl. Phys.}
+  {\bfseries B226} (1983) 269}.
+%%CITATION = NUPHA,B226,269;%%.
+
+\bibitem{Skenderis:2002vf}
+K.~Skenderis and M.~Taylor, ``{Branes in AdS and p p wave space-times},''
+  \href{http://dx.doi.org/10.1088/1126-6708/2002/06/025}{{\em JHEP} {\bfseries
+  06} (2002) 025},
+\href{http://arxiv.org/abs/hep-th/0204054}{{\ttfamily arXiv:hep-th/0204054
+  [hep-th]}}.
+%%CITATION = HEP-TH/0204054;%%.
+
+\bibitem{Pilch:2003jg}
+K.~Pilch and N.~P. Warner, ``{Generalizing the N=2 supersymmetric RG flow
+  solution of IIB supergravity},''
+  \href{http://dx.doi.org/10.1016/j.nuclphysb.2003.09.052}{{\em Nucl. Phys.}
+  {\bfseries B675} (2003) 99--121},
+\href{http://arxiv.org/abs/hep-th/0306098}{{\ttfamily arXiv:hep-th/0306098
+  [hep-th]}}.
+%%CITATION = HEP-TH/0306098;%%.
+
+\bibitem{Ammon:2015wua}
+M.~Ammon and J.~Erdmenger, {\em {Gauge/gravity duality}}.
+\newblock Cambridge Univ. Pr., Cambridge, UK, 2015.
+\newblock
+\url{http://www.cambridge.org/de/academic/subjects/physics/theoretical-physics-and-mathematical-physics/gaugegravity-duality-foundations-and-applications}.
+\newblock
+%%CITATION = INSPIRE-1376202;%%.
+
+\bibitem{Maldacena:1997re}
+J.~M. Maldacena, ``{The Large N limit of superconformal field theories and
+  supergravity},'' \href{http://dx.doi.org/10.1023/A:1026654312961}{{\em Int.
+  J. Theor. Phys.} {\bfseries 38} (1999) 1113--1133},
+  \href{http://arxiv.org/abs/hep-th/9711200}{{\ttfamily arXiv:hep-th/9711200
+  [hep-th]}}.
+[Adv. Theor. Math. Phys.2,231(1998)].
+%%CITATION = HEP-TH/9711200;%%.
+
+\bibitem{Gubser:1998bc}
+S.~S. Gubser, I.~R. Klebanov, and A.~M. Polyakov, ``{Gauge theory correlators
+  from noncritical string theory},''
+  \href{http://dx.doi.org/10.1016/S0370-2693(98)00377-3}{{\em Phys. Lett.}
+  {\bfseries B428} (1998) 105--114},
+\href{http://arxiv.org/abs/hep-th/9802109}{{\ttfamily arXiv:hep-th/9802109
+  [hep-th]}}.
+%%CITATION = HEP-TH/9802109;%%.
+
+\bibitem{Witten:1998qj}
+E.~Witten, ``{Anti-de Sitter space and holography},'' {\em Adv. Theor. Math.
+  Phys.} {\bfseries 2} (1998) 253--291,
+\href{http://arxiv.org/abs/hep-th/9802150}{{\ttfamily arXiv:hep-th/9802150
+  [hep-th]}}.
+%%CITATION = HEP-TH/9802150;%%.
+
+\bibitem{Aharony:2008ug}
+O.~Aharony, O.~Bergman, D.~L. Jafferis, and J.~Maldacena, ``{N=6 superconformal
+  Chern-Simons-matter theories, M2-branes and their gravity duals},''
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/10/091}{{\em JHEP} {\bfseries
+  10} (2008) 091},
+\href{http://arxiv.org/abs/0806.1218}{{\ttfamily arXiv:0806.1218 [hep-th]}}.
+%%CITATION = ARXIV:0806.1218;%%.
+
+\bibitem{tHooft:1973alw}
+G.~'t~Hooft, ``{A Planar Diagram Theory for Strong Interactions},''
+\href{http://dx.doi.org/10.1016/0550-3213(74)90154-0}{{\em Nucl. Phys.}
+  {\bfseries B72} (1974) 461}.
+%%CITATION = NUPHA,B72,461;%%.
+
+\bibitem{Skenderis:2002wp}
+K.~Skenderis, ``{Lecture notes on holographic renormalization},''
+  \href{http://dx.doi.org/10.1088/0264-9381/19/22/306}{{\em Class. Quant.
+  Grav.} {\bfseries 19} (2002) 5849--5876},
+\href{http://arxiv.org/abs/hep-th/0209067}{{\ttfamily arXiv:hep-th/0209067
+  [hep-th]}}.
+%%CITATION = HEP-TH/0209067;%%.
+
+\bibitem{Wulff:2007vj}
+L.~Wulff, {\em {Strings, boundary fermions and coincident D-branes}}.
+\newblock PhD thesis, Stockholm U., 2007.
+\newblock
+\href{http://arxiv.org/abs/hep-th/0701129}{{\ttfamily arXiv:hep-th/0701129
+  [hep-th]}}.
+\newblock
+%%CITATION = HEP-TH/0701129;%%.
+
+\bibitem{Drukker:1999zq}
+N.~Drukker, D.~J. Gross, and H.~Ooguri, ``{Wilson loops and minimal
+  surfaces},'' \href{http://dx.doi.org/10.1103/PhysRevD.60.125006}{{\em Phys.
+  Rev.} {\bfseries D60} (1999) 125006},
+\href{http://arxiv.org/abs/hep-th/9904191}{{\ttfamily arXiv:hep-th/9904191
+  [hep-th]}}.
+%%CITATION = HEP-TH/9904191;%%.
+
+\bibitem{Berenstein:1998ij}
+D.~E. Berenstein, R.~Corrado, W.~Fischler, and J.~M. Maldacena, ``{The Operator
+  product expansion for Wilson loops and surfaces in the large N limit},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.59.105023}{{\em Phys. Rev.}
+  {\bfseries D59} (1999) 105023},
+\href{http://arxiv.org/abs/hep-th/9809188}{{\ttfamily arXiv:hep-th/9809188
+  [hep-th]}}.
+%%CITATION = HEP-TH/9809188;%%.
+
+\bibitem{Cvetic:1999zs}
+M.~Cvetic, H.~Lu, C.~N. Pope, and K.~S. Stelle, ``{T duality in the
+  Green-Schwarz formalism, and the massless / massive IIA duality map},''
+  \href{http://dx.doi.org/10.1016/S0550-3213(99)00740-3}{{\em Nucl. Phys.}
+  {\bfseries B573} (2000) 149--176},
+\href{http://arxiv.org/abs/hep-th/9907202}{{\ttfamily arXiv:hep-th/9907202
+  [hep-th]}}.
+%%CITATION = HEP-TH/9907202;%%.
+
+\bibitem{Wulff:2013kga}
+L.~Wulff, ``{The type II superstring to order $\theta^4$},''
+  \href{http://dx.doi.org/10.1007/JHEP07(2013)123}{{\em JHEP} {\bfseries 07}
+  (2013) 123},
+\href{http://arxiv.org/abs/1304.6422}{{\ttfamily arXiv:1304.6422 [hep-th]}}.
+%%CITATION = ARXIV:1304.6422;%%.
+
+\bibitem{Kruczenski:2008zk}
+M.~Kruczenski and A.~Tirziu, ``{Matching the circular Wilson loop with dual
+  open string solution at 1-loop in strong coupling},''
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/05/064}{{\em JHEP} {\bfseries
+  05} (2008) 064},
+\href{http://arxiv.org/abs/0803.0315}{{\ttfamily arXiv:0803.0315 [hep-th]}}.
+%%CITATION = ARXIV:0803.0315;%%.
+
+\bibitem{Kristjansen:2012nz}
+C.~Kristjansen and Y.~Makeenko, ``{More about One-Loop Effective Action of Open
+  Superstring in $AdS_5\times S^5$},''
+  \href{http://dx.doi.org/10.1007/JHEP09(2012)053}{{\em JHEP} {\bfseries 09}
+  (2012) 053},
+\href{http://arxiv.org/abs/1206.5660}{{\ttfamily arXiv:1206.5660 [hep-th]}}.
+%%CITATION = ARXIV:1206.5660;%%.
+
+\bibitem{Bergamin:2015vxa}
+R.~Bergamin and A.~A. Tseytlin, ``{Heat kernels on cone of $AdS_2$ and
+  $k$-wound circular Wilson loop in $AdS_5 \times S^5$ superstring},''
+\href{http://arxiv.org/abs/1510.06894}{{\ttfamily arXiv:1510.06894 [hep-th]}}.
+%%CITATION = ARXIV:1510.06894;%%.
+
+\bibitem{Forini:2015bgo}
+V.~Forini, V.~Giangreco M.~Puletti, L.~Griguolo, D.~Seminara, and E.~Vescovi,
+  ``{Precision calculation of 1/4-BPS Wilson loops in AdS$_5\times S^5$},''
+  \href{http://dx.doi.org/10.1007/JHEP02(2016)105}{{\em JHEP} {\bfseries 02}
+  (2016) 105},
+\href{http://arxiv.org/abs/1512.00841}{{\ttfamily arXiv:1512.00841 [hep-th]}}.
+%%CITATION = ARXIV:1512.00841;%%.
+
+\bibitem{Faraggi:2016ekd}
+A.~Faraggi, L.~A. Pando~Zayas, G.~A. Silva, and D.~Trancanelli, ``{Toward
+  precision holography with supersymmetric Wilson loops},''
+  \href{http://dx.doi.org/10.1007/JHEP04(2016)053}{{\em JHEP} {\bfseries 04}
+  (2016) 053},
+\href{http://arxiv.org/abs/1601.04708}{{\ttfamily arXiv:1601.04708 [hep-th]}}.
+%%CITATION = ARXIV:1601.04708;%%.
+
+\bibitem{Forini:2017whz}
+V.~Forini, A.~A. Tseytlin, and E.~Vescovi, ``{Perturbative computation of
+  string one-loop corrections to Wilson loop minimal surfaces in AdS$_5 \times$
+  S$^5$},'' \href{http://dx.doi.org/10.1007/JHEP03(2017)003}{{\em JHEP}
+  {\bfseries 03} (2017) 003},
+\href{http://arxiv.org/abs/1702.02164}{{\ttfamily arXiv:1702.02164 [hep-th]}}.
+%%CITATION = ARXIV:1702.02164;%%.
+
+\bibitem{Gomis:2006sb}
+J.~Gomis and F.~Passerini, ``{Holographic Wilson Loops},''
+  \href{http://dx.doi.org/10.1088/1126-6708/2006/08/074}{{\em JHEP} {\bfseries
+  08} (2006) 074},
+\href{http://arxiv.org/abs/hep-th/0604007}{{\ttfamily arXiv:hep-th/0604007
+  [hep-th]}}.
+%%CITATION = HEP-TH/0604007;%%.
+
+\bibitem{Yamaguchi:2006tq}
+S.~Yamaguchi, ``{Wilson loops of anti-symmetric representation and
+  D5-branes},'' \href{http://dx.doi.org/10.1088/1126-6708/2006/05/037}{{\em
+  JHEP} {\bfseries 05} (2006) 037},
+\href{http://arxiv.org/abs/hep-th/0603208}{{\ttfamily arXiv:hep-th/0603208
+  [hep-th]}}.
+%%CITATION = HEP-TH/0603208;%%.
+
+\bibitem{Drukker:2005kx}
+N.~Drukker and B.~Fiol, ``{All-genus calculation of Wilson loops using
+  D-branes},'' \href{http://dx.doi.org/10.1088/1126-6708/2005/02/010}{{\em
+  JHEP} {\bfseries 0502} (2005) 010},
+\href{http://arxiv.org/abs/hep-th/0501109}{{\ttfamily arXiv:hep-th/0501109
+  [hep-th]}}.
+%%CITATION = HEP-TH/0501109;%%.
+
+\bibitem{Zarembo:2016bbk}
+K.~Zarembo, ``{Localization and AdS/CFT Correspondence},''
+\newblock 2016.
+\newblock
+\href{http://arxiv.org/abs/1608.02963}{{\ttfamily arXiv:1608.02963 [hep-th]}}.
+\newblock
+%%CITATION = ARXIV:1608.02963;%%.
+
+\bibitem{Fradkin:1983xs}
+E.~S. Fradkin and A.~A. Tseytlin, ``{One Loop Infinities in Dimensionally
+  Reduced Supergravities},''
+\href{http://dx.doi.org/10.1016/0370-2693(84)91732-5}{{\em Phys. Lett.}
+  {\bfseries B137} (1984) 357--362}.
+%%CITATION = PHLTA,B137,357;%%.
+
+\bibitem{GRISARU1988625}
+M.~Grisaru, H.~Nishino, and D.~Zanon, ``$\beta$-function approach to the
+  green-schwarz superstring,''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/0370-2693(88)90708-3}{{\em
+  Physics Letters B} {\bfseries 206} no.~4, (1988) 625 -- 630}.
+  \url{http://www.sciencedirect.com/science/article/pii/0370269388907083}.
+
+\bibitem{GRISARU1985116}
+M.~Grisaru, P.~Howe, L.~Mezincescu, B.~Nilsson, and P.~Townsend, ``N = 2
+  superstrings in a supergravity background,''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/0370-2693(85)91071-8}{{\em
+  Physics Letters B} {\bfseries 162} no.~1, (1985) 116 -- 120}.
+  \url{http://www.sciencedirect.com/science/article/pii/0370269385910718}.
+
+\bibitem{PhysRevD.10.4130}
+R.~F. Dashen, B.~Hasslacher, and A.~Neveu, ``Nonperturbative methods and
+  extended-hadron models in field theory. ii. two-dimensional models and
+  extended hadrons,'' \href{http://dx.doi.org/10.1103/PhysRevD.10.4130}{{\em
+  Phys. Rev. D} {\bfseries 10} (Dec, 1974) 4130--4138}.
+  \url{https://link.aps.org/doi/10.1103/PhysRevD.10.4130}.
+
+\bibitem{Buchbinder:2014nia}
+E.~I. Buchbinder and A.~A. Tseytlin, ``{1/N correction in the D3-brane
+  description of a circular Wilson loop at strong coupling},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.89.126008}{{\em Phys. Rev.}
+  {\bfseries D89} no.~12, (2014) 126008},
+\href{http://arxiv.org/abs/1404.4952}{{\ttfamily arXiv:1404.4952 [hep-th]}}.
+%%CITATION = ARXIV:1404.4952;%%.
+
+\end{thebibliography}\endgroup
