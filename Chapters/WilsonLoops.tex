@@ -146,6 +146,7 @@ These are very generic, though,
 but the generating function of $k$-antisymmetric representation 
 \begin{equation}\label{eq:generatingFunctionAk}
  \braket{G_{A_k}(t)}=\sum_{k=0}^{N} t^k \, W_{A_k}
+%  G_{A_k} same as G^{-} defined few lines below
 \end{equation}
 has a nice compact form:
 \begin{equation}
@@ -159,13 +160,15 @@ Here, unlike in \eqref{eq:generatingFunctionAk},
 we use the expansion parameter $e^{-\nu}$ instead of $t$.}
 for the character of these representations are explicitly known:
 \begin{equation}
- G_k^{\pm}(\nu) = \prod_{i=1}^N (1\mp e^{a_i - \nu})^{\mp}.
+ G^{\pm}(\nu) = \prod_{i=1}^N (1\mp e^{a_i - \nu})^{\mp}.
+% Wilson loop in terms of the generating function: 
+% \left<G^{\pm}(t)\right>=\sum_{k=0}^{N} t^k \, W^{\pm}_k
 \end{equation}
 Notice that these are also the Bose (+) and Fermi (-) distributions, in terms of the eigenvalues $a_i$.
 
 The standard procedure is to derive the character by inverting the generating function using Cauchy's integral formula:
 \begin{equation}\label{eq:characterIntegral}
- \chi_k^\pm \equiv \text{tr}_\pm \,U = \int_{C-i\pi}^{C+i\pi} \dfrac{d\nu}{2\pi i} \, e^{\nu k} G_k^\pm(\nu),
+ \chi_k^\pm \equiv \text{tr}_\pm \,U = \int_{C-i\pi}^{C+i\pi} \dfrac{d\nu}{2\pi i} \, e^{\nu k} G^\pm(\nu),
 \end{equation}
 where $C>a_i, \forall i$, for the symmetric case, and $C$ is arbitrary for the antisymmetric case.
 
