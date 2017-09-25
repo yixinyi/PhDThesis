@@ -118,7 +118,7 @@ The sum $I_m + I_M$ indeed gives the exact result.
 Now, let us see how we can use supersymmetric localization to solve it. 
 The integral $I$ can be rewritten in the supersymmetric form:
 \begin{equation}
- I = \int_m^M \, dx \int da \int db \, e^{p(g(x)-a b g'(x))},
+ I = \int_m^M \, dx \int da \int db \, e^{p(g(x)- a b g'(x))},
 \end{equation}
 where $a$ and $b$ are Grassmann numbers (our fermions), 
 which means they satisfy $a b = -b a$ and $a^2=b^2=0$, hence 
@@ -129,7 +129,7 @@ which means they satisfy $a b = -b a$ and $a^2=b^2=0$, hence
 
 The action $S=p(g(x)-a b g'(x))$ is invariant under the supersymmetry transformation:
 \begin{equation}
- \delta_\epsilon x = \epsilon x, 
+ \delta_\epsilon x = -\epsilon a, 
  \quad
  \delta_\epsilon a = 0,
  \quad 
@@ -139,7 +139,7 @@ where $\epsilon$ is a Grassmann number.
 The supersymmetric operator, defined by $\epsilon Q = \delta_\epsilon$,
 is explicitly
 \begin{equation}
- Q = a \frac{\partial }{\partial x}+\frac{\partial }{\partial b}.
+ Q = -a \frac{\partial }{\partial x}+\frac{\partial }{\partial b}.
 \end{equation}
 We can check that, indeed, \eqref{loc:susyCondition} are fulfilled.
 
